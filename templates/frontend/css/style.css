@@ -1,0 +1,133 @@
+/* LAYOUT */
+body {
+	height: 100%;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  	background-color: #eff8e8 !important;
+}
+
+nav, footer, header, .maincontainer {
+	background-color: #fff !important;
+	box-shadow: 0 3px 6px 0 rgba(30, 35, 30, 0.12);    
+}
+
+.maincontainer {
+	padding-bottom: 25px;
+}
+
+/* NAVBAR */
+nav {
+	padding: 10px 0;
+	font-size: 18px;
+    border-color: #e7e7e7;
+}
+ 
+nav a {
+	color: #474747;
+	text-shadow: 3px 1px 2px rgba(30, 35, 30, 0.03);
+}
+
+nav a:hover {
+	text-decoration: underline !important;
+}
+
+.affix {
+	padding: 0;
+	-webkit-transition:padding 0.2s linear;
+	-moz-transition:padding 0.2s linear;  
+	-o-transition:padding 0.2s linear;         
+	transition:padding 0.2s linear;  
+}
+
+.affix-top {
+	padding: 10px 0;
+	-webkit-transition:padding 0.1s linear;
+	-moz-transition:padding 0.1s linear;  
+	-o-transition:padding 0.1s linear;         
+	transition:padding 0.1s linear;  
+}
+
+/* HEADER */
+header {
+	margin-top: 71px;
+}
+
+.headerimg {
+	display: block;
+	object-fit: cover;
+}
+
+#slider-item0, #slider-item1, #slider-item2, #slider-item3 {
+	background-image: url("../images/slider/slider-default.png");
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	overflow: hidden;
+}
+ 
+#slider-item0 {
+	background-image: url("../images/slider/slider-1.png");
+}
+ 
+#slider-item1 {
+	background-image: url("../images/slider/slider-2.png");
+}
+ 
+#slider-item2 {
+	background-image: url("../images/slider/slider-4.png");
+}
+ 
+#slider-item3 {
+	background-image: url("../images/slider/slider-3.png");
+}
+
+.infobox {
+	margin: 20px;
+	background-color: rgba(248, 248, 258, 0.982);
+	color: #474747 !important;
+	padding: 5px;
+	border: 1px solid #c3c3c3;
+	border-radius: 5px; 
+}
+
+@media (min-width: 768px) {
+	.infobox {
+		margin: 50px 140px 0;
+	}		
+}
+
+@media (max-width: 767px) {
+	.infobox {
+		margin: 20px;
+	}		
+}
+
+.infobox.left {
+	float: left;
+	border-left: 8px solid #77ab40;
+}
+
+.infobox.right {
+	float: right;
+	border-right: 8px solid #77ab40;
+}
+
+/* CONTENT */
+
+/* SIDEBAR */
+#fb-page {
+	padding: 40px 0 20px 20px;
+}
+
+/* FOOTER */
+footer {
+	box-shadow: 0 -3px 6px 0 rgba(30, 35, 30, 0.12);  
+	margin-top: 20px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+/* MODULS */
+#map {
+	width: 100%;
+	height: 400px;
+}
